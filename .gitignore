@@ -1,0 +1,25 @@
+# Environments
+env/
+venv/
+.env
+
+# Next.js / Node
+node_modules/
+.next/
+out/
+build/
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Models (Keep small models, ignore large ones if needed)
+# models/
+
+# Data and Images
+# We want to keep the images for the README to display correctly
+# data/ (Keep original CSV for portfolio demonstration)
