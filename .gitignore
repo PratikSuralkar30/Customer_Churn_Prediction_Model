@@ -3,12 +3,21 @@ env/
 venv/
 .env
 
+# Models & Data (Kept locally)
+models/
+data/
+notebooks/
+PROOF_STRATEGY.md
+
 # Next.js / Node
 node_modules/
 .next/
 out/
 build/
 .DS_Store
+apps/web/public/
+apps/web/CLAUDE.md
+apps/web/AGENTS.md
 
 # Python cache
 __pycache__/
@@ -16,10 +25,3 @@ __pycache__/
 *.pyo
 *.pyd
 .pytest_cache/
-
-# Models (Keep small models, ignore large ones if needed)
-# models/
-
-# Data and Images
-# We want to keep the images for the README to display correctly
-# data/ (Keep original CSV for portfolio demonstration)
